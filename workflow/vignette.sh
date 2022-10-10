@@ -5,4 +5,4 @@ docker run \
 --mount type=bind,source="/home/hudson/Projects/container-demo/DATA",target="/DATA" \
 -e IN_FILE='/DATA/stage3.jpg' \
 -e OUT_FILE='/DATA/stage4.jpg' \
-vignette:v1.0.2b
+vignette:v1.0.0b
