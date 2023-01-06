@@ -6,4 +6,4 @@ docker run \
 --mount type=bind,source="/home/hudson/Projects/container-demo/DATA",target="/DATA" \
 -e IN_FILE='/DATA/stage2.jpg' \
 -e OUT_FILE='/DATA/stage3.jpg' \
-sepia:v1.0.0b
+sepia
