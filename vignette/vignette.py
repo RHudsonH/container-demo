@@ -17,7 +17,7 @@ output = np.copy(img)
 
 # Apply the mask
 for i in range(3):
-    output[:,:,i] = output[:,:,i] * ( mask * 8 )
+    output[:,:,i] = output[:,:,i] * ( mask * 3 )
 
 
 cv2.imwrite(os.getenv('OUT_FILE'), output)
